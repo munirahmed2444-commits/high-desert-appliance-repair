@@ -10,37 +10,85 @@
 </head>
 <body class="bg-slate-50 text-slate-900 leading-relaxed">
 
-    <nav class="bg-white/90 backdrop-blur-md sticky top-0 z-50 border-b">
+    <nav class="bg-white/95 backdrop-blur-md sticky top-0 z-50 border-b">
         <div class="max-w-7xl mx-auto px-4 h-20 flex justify-between items-center">
             <div class="flex items-center gap-2">
                 <div class="bg-blue-600 p-2 rounded-lg text-white"><i class="fas fa-tools"></i></div>
-                <span class="text-xl font-extrabold tracking-tight">HIGH DESERT <span class="text-blue-600 italic">REPAIR</span></span>
+                <div class="flex flex-col leading-tight">
+                    <span class="text-sm font-black tracking-tight uppercase">High Desert</span>
+                    <span class="text-[10px] text-blue-600 font-bold italic uppercase">Appliance Repair</span>
+                </div>
             </div>
-            <a href="booking.html" class="bg-slate-900 text-white px-6 py-3 rounded-full font-bold hover:bg-blue-600 transition">Book Service</a>
+            
+            <div class="flex items-center gap-3">
+                <a href="#about" class="text-[10px] font-black uppercase tracking-widest text-slate-500 hover:text-blue-600 transition">About Us</a>
+                <a href="booking.html" class="bg-slate-900 text-white px-4 py-2.5 rounded-full text-[10px] font-black uppercase tracking-widest hover:bg-blue-600 transition shadow-lg shadow-slate-200">Book Service</a>
+            </div>
         </div>
     </nav>
 
-    <header class="relative py-24 bg-slate-900 text-white overflow-hidden">
-        <div class="absolute inset-0 opacity-30">
+    <header class="relative py-24 bg-slate-900 text-white overflow-hidden text-center px-4">
+        <div class="absolute inset-0 opacity-40">
             <img src="https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=1920&q=80" class="w-full h-full object-cover">
         </div>
-        <div class="relative z-10 max-w-4xl mx-auto px-4 text-center">
-            <h1 class="text-5xl md:text-7xl font-extrabold mb-6 leading-tight">Scottsdale’s Elite <br><span class="text-blue-500">Appliance Experts</span></h1>
-            <p class="text-xl text-slate-300 mb-10">Luxury service for Sub-Zero, Wolf, and Viking appliances. 124+ Five-Star Reviews.</p>
-            <a href="booking.html" class="inline-block bg-blue-600 text-white px-10 py-5 rounded-2xl font-bold text-lg hover:scale-105 transition shadow-xl shadow-blue-500/20">Schedule Your Repair</a>
+        <div class="relative z-10 max-w-4xl mx-auto">
+            <h1 class="text-4xl font-extrabold mb-4 leading-tight uppercase tracking-tight">Scottsdale’s Elite <br><span class="text-blue-500">Appliance Experts</span></h1>
+            <p class="text-lg text-slate-300 mb-8 px-4 font-medium italic">Luxury service for Sub-Zero, Wolf, and Viking.</p>
+            <a href="booking.html" class="inline-block bg-blue-600 text-white px-10 py-5 rounded-2xl font-black text-lg shadow-2xl shadow-blue-600/30 active:scale-95 transition">Schedule Your Repair</a>
         </div>
     </header>
 
-    <section class="py-20 bg-white">
-        <div class="max-w-md mx-auto px-4">
-            <div class="bg-slate-50 p-8 rounded-3xl border-2 border-blue-600 shadow-2xl text-center">
-                <span class="text-blue-600 font-bold tracking-widest uppercase text-sm">Special Offer</span>
-                <div class="my-6"><span class="text-6xl font-extrabold">$89</span><p class="text-slate-500 font-bold italic">Diagnosis Fee</p></div>
-                <p class="text-slate-700 font-bold mb-8">FEE WAIVED if we perform the repair!</p>
-                <a href="booking.html" class="block bg-blue-600 text-white py-4 rounded-xl font-bold shadow-lg hover:bg-slate-900 transition">Book Now & Save</a>
+    <section id="about" class="py-20 bg-white px-6 border-b border-slate-100">
+        <div class="max-w-xl mx-auto text-center">
+            <span class="text-blue-600 font-black text-[10px] uppercase tracking-[0.3em] mb-4 block">Trusted & Local</span>
+            <h2 class="text-3xl font-black text-slate-900 mb-6 uppercase tracking-tight">Locally Owned.<br>Expertly Trained.</h2>
+            <p class="text-slate-500 leading-relaxed font-medium mb-8">
+                Providing factory-level maintenance for high-end kitchens in Scottsdale and Paradise Valley. We pride ourselves on speed, honesty, and respecting your home.
+            </p>
+            <div class="flex justify-center gap-6">
+                <div class="flex items-center gap-2 text-xs font-bold text-slate-400 uppercase tracking-widest">
+                    <i class="fas fa-check-circle text-blue-600"></i> Licensed
+                </div>
+                <div class="flex items-center gap-2 text-xs font-bold text-slate-400 uppercase tracking-widest">
+                    <i class="fas fa-check-circle text-blue-600"></i> Insured
+                </div>
             </div>
         </div>
     </section>
+
+    <section class="py-20 bg-slate-50">
+        <div class="max-w-md mx-auto px-6">
+            <div class="bg-white p-10 rounded-[2.5rem] border-2 border-blue-600 shadow-2xl text-center relative overflow-hidden">
+                <div class="absolute top-0 right-0 bg-blue-600 text-white px-4 py-1 rounded-bl-xl font-bold text-[10px] uppercase">Limited Time</div>
+                <div class="mb-6"><span class="text-6xl font-black text-slate-900">$89</span></div>
+                <p class="text-slate-600 font-bold mb-8 leading-tight">Professional Diagnosis Fee. <br><span class="text-blue-600 italic">(WAIVED if we perform the repair!)</span></p>
+                <a href="booking.html" class="block bg-slate-900 text-white py-5 rounded-2xl font-black shadow-lg hover:bg-blue-600 transition uppercase tracking-widest text-sm">Claim This Offer</a>
+            </div>
+
+            <div class="mt-12 bg-white rounded-3xl p-8 border border-slate-200 shadow-sm">
+                <h3 class="text-center font-black uppercase tracking-[0.2em] text-xs text-slate-400 mb-6">Service Hours</h3>
+                <div class="space-y-3">
+                    <div class="flex justify-between text-sm font-bold">
+                        <span class="text-slate-400">Monday - Friday</span>
+                        <span class="text-slate-900">8:00 AM - 6:00 PM</span>
+                    </div>
+                    <div class="flex justify-between text-sm font-bold">
+                        <span class="text-slate-400">Saturday</span>
+                        <span class="text-slate-900">9:00 AM - 2:00 PM</span>
+                    </div>
+                    <div class="flex justify-between text-sm font-bold">
+                        <span class="text-slate-400">Sunday</span>
+                        <span class="text-blue-600 uppercase italic">Emergency Only</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-12 bg-white text-center border-t border-slate-100">
+        <p class="text-xs font-black text-slate-300 uppercase tracking-[0.4em] mb-4">Scottsdale, Arizona</p>
+        <a href="tel:4804798606" class="text-2xl font-black text-slate-900 hover:text-blue-600 transition">(480) 479-8606</a>
+    </footer>
 
 </body>
 </html>
